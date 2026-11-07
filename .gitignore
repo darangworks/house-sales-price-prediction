@@ -1,0 +1,23 @@
+# Course/private data: keep raw datasets local unless redistribution is explicitly permitted
+data/raw/
+*.csv
+
+# Generated artifacts
+outputs/
+*.joblib
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
